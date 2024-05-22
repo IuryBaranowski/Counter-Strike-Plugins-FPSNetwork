@@ -12,7 +12,7 @@ The latest version of this project is **1.0.0**, which marks the initial release
 
 ### Version 1.0.0
 
-**Release Date:** [Insert Date]
+**Release Date:** 05/22/2024
 
 **Features:**
 - **Banner Display Plugin:** This plugin allows for a banner to be displayed on the screen during gameplay. It's designed to enhance the visual experience and provide information or messages to players in real-time.
