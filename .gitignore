@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Util/bin/Debug/net8.0
+/Util/obj
+/FPSNetwork/bin/Debug/net8.0
+/FPSNetwork/obj/Debug/net8.0
+/FPSNetwork/obj
+*.editorconfig
