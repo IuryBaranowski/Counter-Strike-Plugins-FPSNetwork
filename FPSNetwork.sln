@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerPlugin", "FPSNetwork\BannerPlugin.csproj", "{A9AFF881-3E05-437A-8A2B-E9E380AE7B6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60B99282-0949-4B58-97A1-6EA5FF0F4172}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Util\Domain.csproj", "{B3BA2A5C-9C50-4006-8B35-1AD439B0629C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9AFF881-3E05-437A-8A2B-E9E380AE7B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AFF881-3E05-437A-8A2B-E9E380AE7B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AFF881-3E05-437A-8A2B-E9E380AE7B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AFF881-3E05-437A-8A2B-E9E380AE7B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BA2A5C-9C50-4006-8B35-1AD439B0629C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BA2A5C-9C50-4006-8B35-1AD439B0629C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BA2A5C-9C50-4006-8B35-1AD439B0629C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BA2A5C-9C50-4006-8B35-1AD439B0629C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6891ED05-3208-4B7C-8E36-540FFA620280}
+	EndGlobalSection
+EndGlobal
