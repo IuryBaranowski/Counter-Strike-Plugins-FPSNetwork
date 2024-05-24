@@ -8,7 +8,7 @@ This project provides a collection of plugins designed to be used with Counter-S
 
 ## Current Version
 
-The latest version of this project is **1.0.0**, which marks the initial release. In this version, we have included the foundational setup of the project along with our first plugin.
+The latest version of this project is **1.0.1**.
 
 ### Version 1.0.0
 
