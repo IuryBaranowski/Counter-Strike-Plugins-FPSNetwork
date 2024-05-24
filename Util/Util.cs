@@ -4,9 +4,16 @@ using Microsoft.Extensions.Configuration;
 
 public static class Util
 {
-    private static IConfigurationBuilder? build = new ConfigurationBuilder()
+    private static readonly IConfigurationRoot configuration;
+
+    static Util()
+    {
+        var builder = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+        configuration = builder.Build();
+    }
 
     /// <summary>
     /// Get the banner's image.
@@ -14,10 +21,7 @@ public static class Util
     /// <returns></returns>
     public static string GetBannerImage()
     {
-        IConfiguration configuration = build.Build();
-
-        string imagem = configuration["banner:image"];
-
-        return imagem;
+        string image = configuration["banner:image"];
+        return image ?? string.Empty;
     }
 }

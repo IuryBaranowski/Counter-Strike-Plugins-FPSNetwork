@@ -9,7 +9,7 @@ using Util;
 
 public class Banner : BasePlugin
 {
-    public FakeConVar<bool> BannerEnabled = new("banner_enable", "Whether banner is enabled or not. Default: false", false);
+    public FakeConVar<bool> BannerEnabled = new("banner_enable", "If banner is enabled or not. Default: false", false);
     public override string ModuleName => "Banner Plugin";
     public override string ModuleVersion => "1.0.0";
     public override string ModuleAuthor => "https://github.com/iurybaranowski";
@@ -35,7 +35,7 @@ public class Banner : BasePlugin
     {
         foreach (var player in Utilities.GetPlayers())
         {
-            if (player != null && BannerEnabled.Value)
+            if (player is not null && BannerEnabled.Value)
             {
                 if (player?.LifeState == 0)
                     player?.PrintToCenterHtml($"<img src='{Image}'</img>");
