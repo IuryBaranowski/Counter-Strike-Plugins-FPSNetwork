@@ -8,18 +8,11 @@ This project provides a collection of plugins designed to be used with Counter-S
 
 ## Current Version
 
-The latest version of this project is **1.0.1**.
+The latest version of this project is **1.0.0**.
 
 ### Version 1.0.0
 
-**Release Date:** 05/22/2024
+**Release Date:** 05/25/2024
 
 **Features:**
 - **Banner Display Plugin:** This plugin allows for a banner to be displayed on the screen during gameplay. It's designed to enhance the visual experience and provide information or messages to players in real-time.
-
-### Version 1.0.1
-
-**Release Date:** 05/24/2024
-
-**Features:**
-- **Created Method:** Created Method to keep the appsettings after build the project.
