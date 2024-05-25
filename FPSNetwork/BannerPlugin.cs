@@ -9,7 +9,7 @@ using CounterStrikeSharp.API.Modules.Cvars;
 
 public class BannerPlugin : BasePlugin
 {
-    public FakeConVar<bool> bannerEnabled = new("banner_enable", "If banner is enabled or not. Default: false", false);
+    public FakeConVar<bool> bannerEnabled = new("banner_enable", "If banner is enabled or not. Default: true", true);
 
     public override string ModuleName => "Banner Plugin";
 
@@ -74,7 +74,7 @@ public class BannerPlugin : BasePlugin
 
     private HookResult OnRoundStart(EventRoundStart @event, GameEventInfo info)
     {
-        bannerEnabled.Value = false;
+        bannerEnabled.Value = true;
         return HookResult.Continue;
     }
 
