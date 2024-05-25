@@ -37,7 +37,7 @@ public class BannerPlugin : BasePlugin
         {
             if (player != null && bannerEnabled.Value)
             {
-                if (player?.LifeState == 0)
+                if (player?.Health == 0)
                     player?.PrintToCenterHtml("<img src='https://i.ibb.co/zsSgqB7/FPSNetwork3.jpg'</img>"); //Change the photo URL here.
             }
         }
